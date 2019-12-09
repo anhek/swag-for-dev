@@ -3,10 +3,11 @@
 a
 	color link-color
 	transition .2s
+	text-decoration none
 	&:hover
 		color link-hover-color
 
-.btn.secondary
+.btn
 	color white-color
 	font-size 1.8rem
 	padding .4rem 1rem
@@ -15,9 +16,9 @@ a
 	border 2px solid link-color
 	text-decoration none
 	display inline-block
-	&:hover
-		background link-color
-		color white-color
+		&:hover
+			background link-color
+			color white-color
 
 .container
 	min-height 100vh
@@ -44,6 +45,7 @@ section.main
 
 	.banner
 		text-align center
+		font-size 1.8rem
 		padding 1.2rem
 		background primary-color
 		color white
@@ -80,6 +82,23 @@ section.main
 				line-height 1.4
 				max-width 72rem
 				color white-color
+			.github
+				display flex
+				align-items center
+				margin-top 20px
+				font-size 2rem
+				background-color tertiary-color
+				color white-color
+				font-size 1.8rem
+				padding .6rem .8rem
+				border-radius .6rem
+				text-decoration none
+				&:hover
+					background-color primary-color
+				.logo
+					width 25px
+					margin-right 5px
+
 
 	.buttons
 		justify-content flex-start

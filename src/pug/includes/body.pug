@@ -1,10 +1,8 @@
-include ./fork.pug
-
 .container
 
 	section.main.flex
 		.flex.box.banner
-			p Want your company's swag to be listed / unlisted? Want to advertise? #[a.btn.secondary(href="https://t.me/swapagarwal") Contact us]
+			p Want your company's swag to be listed / unlisted? Want to advertise? #[a(href="https://t.me/swapagarwal") Contact us]
 		.flex.box.hero
 			.heading.flex
 				h1.logo
@@ -14,6 +12,10 @@ include ./fork.pug
 				p As a developer, nothing piques my interest more than developer swag!
 					br
 					| I created devSwag to scratch my own itch by starting a curation of such opportunities in Feb '18. These are crowdsourced and verified by the community. All of them ship worldwide! 🚀
+				a.github.btn_alt(href='https://github.com/swapagarwal/swag-for-dev', aria-label='View source on Github')
+					img.logo(src="/assets/img/github-logo.svg", alt="GitHub Logo")
+					| View on Github
+
 
 		.buttons
 			.flex.controls
